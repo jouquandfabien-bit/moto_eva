@@ -64,7 +64,7 @@ PROJECT_BRIEF          =
 # 55 pixels et la largeur maximale ne doit pas dépasser 200 pixels. Doxygen
 # copiera le logo dans le répertoire de sortie.
 
-PROJECT_LOGO           = C:/Users/CIEL25_admin/Documents/act_0/eva/images.png
+PROJECT_LOGO           = images.png
 
 # Avec la balise PROJECT_ICON, on peut spécifier une icône qui est incluse dans
 # les onglets lorsque le document HTML est affiché. Doxygen copiera le logo dans
