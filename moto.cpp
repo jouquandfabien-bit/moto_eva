@@ -37,6 +37,6 @@ float Moto::getAcceleration() const {
 std::string Moto::toString() const {
     std::stringstream ss;
     ss << "Moto: " << nom << " (Couleur: " << couleur << ", Poids: " << poids 
-       << " kg, Accélération à 50km/h: " << getAcceleration() << " m/s²)";
+       << " kg, Acceleration a 50km/h: " << getAcceleration() << " m/s²)";
     return ss.str();
 }

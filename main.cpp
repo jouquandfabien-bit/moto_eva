@@ -1,8 +1,8 @@
 #include <iostream>
 #include "Conducteur.h"
-#include "Moto.h"
-#include "Thermique.h"
-#include "Electrique.h"
+#include "moto.h"
+#include "thermique.h"
+#include "electrique.h"
 
 int main() {
     // Étape A : 1 conducteur, 2 motos

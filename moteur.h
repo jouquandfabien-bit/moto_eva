@@ -7,7 +7,7 @@
  */
 class Moteur {
 private:
-    int puissance;
+    int _puissance;
 
 public:
     /**
