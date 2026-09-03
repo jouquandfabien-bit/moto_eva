@@ -6,7 +6,7 @@
 
 int main() {
     // Étape A : 1 conducteur, 2 motos
-    Conducteur c1("Dupont", "Jean", 1990);
+    Conducteur c1("Vittet", "Stephane", 1990);
     
     // NB : Les moteurs sont créés avec 'new' car le destructeur de Moto fera le 'delete'
     Moto m1(new Thermique(75000, 1000.0f), "Rouge", "Yamaha R1", 200); 
@@ -19,8 +19,8 @@ int main() {
     std::cout << c1.toString() << "\n";
 
     // Étape B : 2 nouveaux conducteurs, 1 nouvelle moto
-    Conducteur c2("Martin", "Alice", 1995);
-    Conducteur c3("Durand", "Paul", 1988);
+    Conducteur c2("neymar", "Jean", 1995);
+    Conducteur c3("Tombal", "Pierre", 1988);
     
     Moto m3(new Thermique(35000, 500.0f), "Noir", "Honda CB500", 190);
 
